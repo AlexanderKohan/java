@@ -19,7 +19,7 @@ public class Rectangle {
     }
 
     public int getPerimeter() {
-        int perimeter = (2 * width) + (2 * height);
+        int perimeter = 2 * (width + height);
         return perimeter;
     }
 
