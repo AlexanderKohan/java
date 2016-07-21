@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson1;
+package progKievUa.javaOOP.home.lesson1.rectangle;
 
 /**
  * Created by Alexander on 7/19/2016.
@@ -10,8 +10,9 @@ package progKievUa.javaOOP.home.lesson1;
 Написать клиентский класс RectangleRunner, создающий список прямоугольников и подсчитывающий их суммарную площадь.
 */
 public class Rectangle {
-    int width;
-    int height;
+
+    private int width;
+    private int height;
 
     public Rectangle(int width, int height) {
         this.width = width;
