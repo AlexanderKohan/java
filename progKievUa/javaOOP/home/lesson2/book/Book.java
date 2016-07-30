@@ -85,4 +85,12 @@ public class Book {
     public int getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

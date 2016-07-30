@@ -1,6 +1,6 @@
 Immutable Point, Line (*). Написать классы:
 1. Point: int x, int y.
-2. Line: Point start, Point end.
+2. Line: Point start, Point finish.
 Точка и линия должны быть неизменяемыми объектами (Immutable).
 Выполнить задачи:
 1. Создать список разных линий.
