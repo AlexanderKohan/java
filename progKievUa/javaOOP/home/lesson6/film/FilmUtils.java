@@ -15,7 +15,6 @@ public class FilmUtils {
         filmList.add(new Film("Se7en", 1995, Genre.THRILLER));
         filmList.add(new Film("Psycho", 1960, Genre.HORROR));
         filmList.add(new Film("Sleepy Hollow", 1995, Genre.HORROR));
-        filmList.add(new Film("The Pianist", 2002, Genre.WAR));
         return filmList;
     }
 
