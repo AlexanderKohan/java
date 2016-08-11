@@ -10,8 +10,8 @@ public class FilmRunner {
     public static void main(String[] args) {
         List<Film> filmList = FilmUtils.createFilms();
 
-        FilmUtils.findByGenre(filmList, Genre.HORROR);
-        FilmUtils.findByGenre(filmList, Genre.THRILLER);
-        FilmUtils.findByYear(filmList, Genre.COMEDY, 1990, 2000);
+        FilmUtils.findFilmByGenre(filmList, Genre.HORROR);
+        FilmUtils.findFilmByGenre(filmList, Genre.THRILLER);
+        FilmUtils.findFilmByYear(filmList, Genre.COMEDY, 1990, 2000);
     }
 }

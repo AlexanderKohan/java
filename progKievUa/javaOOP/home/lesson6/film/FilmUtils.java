@@ -18,20 +18,22 @@ public class FilmUtils {
         return filmList;
     }
 
-    public static void findByGenre(List<Film> filmList, Genre genre) {
+    public static List<Film> findFilmByGenre(List<Film> filmList, Genre genre) {
         for (Film film : filmList) {
             if (film.getGenre().equals(genre)) {
                 System.out.println("Genre: " + genre.getGenre() + ", Film: " + film.getTitle());
             }
         }
+        return filmList;
     }
 
-    public static void findByYear(List<Film> filmList, Genre genre, int startYear, int endYear) {
+    public static List<Film> findFilmByYear(List<Film> filmList, Genre genre, int startYear, int endYear) {
         for (Film film : filmList) {
             if ((film.getYear() >= startYear) && (film.getYear() <= endYear) && film.getGenre().equals(genre)) {
                 System.out.println("Genre: " + genre.getGenre() + ", Years: " + startYear + "-" + endYear
                         + ", Film: " + film.getTitle());
             }
         }
+        return filmList;
     }
 }
