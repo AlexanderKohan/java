@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.polymorphism._1_overloading;
+package progKievUa.javaOOP.classWork.lesson4.polymorphism._1_overloading;
 
 /**
  * Created on 02.06.2015

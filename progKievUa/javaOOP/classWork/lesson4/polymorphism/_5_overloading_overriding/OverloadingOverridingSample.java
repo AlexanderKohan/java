@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.polymorphism._5_overloading_overriding;
+package progKievUa.javaOOP.classWork.lesson4.polymorphism._5_overloading_overriding;
 
 /**
  * @author Bohdan Vanchuhov

@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._2_static_construction;
+package progKievUa.javaOOP.classWork.lesson4.construction._2_static_construction;
 
 /**
  * Created on 27.05.2015

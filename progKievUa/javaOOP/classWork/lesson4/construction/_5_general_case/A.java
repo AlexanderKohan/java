@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._5_general_case;
+package progKievUa.javaOOP.classWork.lesson4.construction._5_general_case;
 
 /**
  * Created on 28.05.2015

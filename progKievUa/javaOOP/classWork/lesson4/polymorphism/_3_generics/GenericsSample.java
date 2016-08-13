@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.polymorphism._3_generics;
+package progKievUa.javaOOP.classWork.lesson4.polymorphism._3_generics;
 
 import java.util.ArrayList;
 import java.util.List;

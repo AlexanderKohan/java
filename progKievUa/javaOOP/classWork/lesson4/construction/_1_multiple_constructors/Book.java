@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._1_multiple_constructors;
+package progKievUa.javaOOP.classWork.lesson4.construction._1_multiple_constructors;
 
 /**
  * @author Bohdan Vanchuhov

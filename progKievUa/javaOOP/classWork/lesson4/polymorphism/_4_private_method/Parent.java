@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.polymorphism._4_private_method;
+package progKievUa.javaOOP.classWork.lesson4.polymorphism._4_private_method;
 
 /**
  * @author Bohdan Vanchuhov

@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._6_flyweight;
+package progKievUa.javaOOP.classWork.lesson4.construction._6_flyweight;
 
 /**
  * Created on 28.05.2015

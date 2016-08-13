@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.string_pool;
+package progKievUa.javaOOP.classWork.lesson4.string_pool;
 
 /**
  * Created on 14.05.2015

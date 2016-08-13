@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._3_builder;
+package progKievUa.javaOOP.classWork.lesson4.construction._3_builder;
 
 /**
  * Created on 27.05.2015

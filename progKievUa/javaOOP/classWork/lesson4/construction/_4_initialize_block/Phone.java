@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.construction._4_initialize_block;
+package progKievUa.javaOOP.classWork.lesson4.construction._4_initialize_block;
 
 import java.util.Random;
 
