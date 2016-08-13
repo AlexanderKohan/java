@@ -4,6 +4,7 @@ package progKievUa.javaOOP.classWork.lesson2.homeCode.mutability.immutable;
  * Immutable point
  * @author Bohdan Vanchuhov
  */
+
 public class Point {
     public final double x;
     public final double y;

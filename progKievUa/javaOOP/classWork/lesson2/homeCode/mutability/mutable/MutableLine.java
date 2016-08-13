@@ -3,6 +3,7 @@ package progKievUa.javaOOP.classWork.lesson2.homeCode.mutability.mutable;
 /**
  * @author Bohdan Vanchuhov
  */
+
 public class MutableLine implements Cloneable{
     private MutablePoint pointA;
     private MutablePoint pointB;

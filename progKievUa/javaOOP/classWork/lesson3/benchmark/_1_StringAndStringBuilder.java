@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.homeCode.benchmark;
+package progKievUa.javaOOP.classWork.lesson3.benchmark;
 
 /**
  * @author Bohdan Vanchuhov
