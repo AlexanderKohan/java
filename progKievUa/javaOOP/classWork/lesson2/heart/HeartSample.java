@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.heart;
+package java.progKievUa.javaOOP.classWork.lesson2.heart;
 
 /**
  * Created by Alexander on 7/20/2016.

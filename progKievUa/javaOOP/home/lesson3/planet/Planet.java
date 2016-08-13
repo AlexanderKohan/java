@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson3.planet;
+package java.progKievUa.javaOOP.home.lesson3.planet;
 
 import java.util.ArrayList;
 import java.util.List;

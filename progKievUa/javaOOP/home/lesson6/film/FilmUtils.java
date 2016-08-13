@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson6.film;
+package java.progKievUa.javaOOP.home.lesson6.film;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +15,7 @@ public class FilmUtils {
         filmList.add(new Film("Se7en", 1995, Genre.THRILLER));
         filmList.add(new Film("Psycho", 1960, Genre.HORROR));
         filmList.add(new Film("Sleepy Hollow", 1995, Genre.HORROR));
+        filmList.add(new Film("Аллочка", 1970, Genre.HISTORICAL));
         return filmList;
     }
 

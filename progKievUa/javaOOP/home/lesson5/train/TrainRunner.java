@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson5.train;
+package java.progKievUa.javaOOP.home.lesson5.train;
 
 /**
  * Created by Alexander on 8/6/2016.

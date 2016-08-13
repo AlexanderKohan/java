@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson2.immutable;
+package java.progKievUa.javaOOP.home.lesson2.immutable;
 
 /**
  * Created by Alexander on 7/21/2016.

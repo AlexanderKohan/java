@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson2.immutable;
+package java.progKievUa.javaOOP.home.lesson2.immutable;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

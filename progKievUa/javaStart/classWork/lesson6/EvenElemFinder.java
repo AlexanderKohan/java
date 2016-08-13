@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson6;
+package java.progKievUa.javaStart.classWork.lesson6;
 
 /**
  * Линейный поиск четных элементов массива.

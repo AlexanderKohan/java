@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson5;
+package java.progKievUa.javaStart.classWork.lesson5;
 
 import java.math.BigInteger;
 

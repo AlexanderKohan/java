@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson5;
+package java.progKievUa.javaStart.classWork.lesson5;
 
 /**
  * Created by Alexander on 05.07.2016.

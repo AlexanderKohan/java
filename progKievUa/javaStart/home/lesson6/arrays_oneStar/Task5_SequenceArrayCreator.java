@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson6.arrays_oneStar;
+package java.progKievUa.javaStart.home.lesson6.arrays_oneStar;
 
 import java.util.Arrays;
 

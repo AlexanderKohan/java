@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson1.rectangle;
+package java.progKievUa.javaOOP.home.lesson1.rectangle;
 
 /**
  * Created by Alexander on 7/19/2016.

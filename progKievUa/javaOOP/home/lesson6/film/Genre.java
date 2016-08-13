@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson6.film;
+package java.progKievUa.javaOOP.home.lesson6.film;
 
 /**
  * Created by Alexander on 8/10/2016.

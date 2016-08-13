@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson3.text;
+package java.progKievUa.javaOOP.home.lesson3.text;
 
 /**
  * Created by Alexander on 7/31/2016.

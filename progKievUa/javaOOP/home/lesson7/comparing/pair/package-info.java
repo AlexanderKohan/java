@@ -1,7 +1,7 @@
 /**
  * Created by Alexander on 8/12/2016.
  */
-package progKievUa.javaOOP.home.lesson7.comparing.pair;
+package java.progKievUa.javaOOP.home.lesson7.comparing.pair;
 
 /*
 Pair (*). Написать класс Pair<L, R>, хранящий пару значений (L left, R right).

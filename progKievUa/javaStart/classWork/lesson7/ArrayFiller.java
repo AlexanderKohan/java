@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson7;
+package java.progKievUa.javaStart.classWork.lesson7;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.car;
+package java.progKievUa.javaOOP.classWork.lesson2.car;
 
 /**
  * Created by Alexander on 7/20/2016.

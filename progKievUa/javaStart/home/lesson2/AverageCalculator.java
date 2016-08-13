@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson2;
+package java.progKievUa.javaStart.home.lesson2;
 
 /**
  * Created by Alexander on 17.06.2016.

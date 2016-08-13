@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson4;
+package java.progKievUa.javaStart.home.lesson4;
 
 import java.util.Scanner;
 

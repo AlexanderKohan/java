@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson4.loops_OneStar;
+package java.progKievUa.javaStart.home.lesson4.loops_OneStar;
 
 /**
  * Created by Alexander on 29.06.2016.

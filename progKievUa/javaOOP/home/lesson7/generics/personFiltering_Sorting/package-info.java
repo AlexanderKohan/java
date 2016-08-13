@@ -1,7 +1,7 @@
 /**
  * Created by Alexander on 8/12/2016.
  */
-package progKievUa.javaOOP.home.lesson7.generics.personFiltering_Sorting;
+package java.progKievUa.javaOOP.home.lesson7.generics.personFiltering_Sorting;
 
 /*
 Person Filtering/Sorting (*). Задан List<Person> persons.

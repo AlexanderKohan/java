@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson1_2;
+package java.progKievUa.javaStart.classWork.lesson1_2;
 
 /**
  * Created by Alexa on 16.06.2016.

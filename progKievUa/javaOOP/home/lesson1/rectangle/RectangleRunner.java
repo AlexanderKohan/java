@@ -1,9 +1,4 @@
-package progKievUa.javaOOP.home.lesson1.rectangle;
-
-import com.sun.org.apache.regexp.internal.RE;
-
-import java.util.ArrayList;
-import java.util.List;
+package java.progKievUa.javaOOP.home.lesson1.rectangle;
 
 /**
  * Created by Alexander on 7/19/2016.

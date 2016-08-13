@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.dog;
+package java.progKievUa.javaOOP.classWork.lesson2.dog;
 
 /**
  * Created by Alexander on 7/19/2016.

@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson6.film;
+package java.progKievUa.javaOOP.home.lesson6.film;
 
 import java.util.List;
 

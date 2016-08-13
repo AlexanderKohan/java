@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson3;
+package java.progKievUa.javaStart.classWork.lesson3;
 
 /**
  *  21.06.2016

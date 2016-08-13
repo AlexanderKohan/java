@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson4.conditions_OneStar;
+package java.progKievUa.javaStart.home.lesson4.conditions_OneStar;
 
 /**
  * Created by Alexander on 29.06.2016.

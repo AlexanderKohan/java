@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.classWork.lesson2.person;
+package java.progKievUa.javaOOP.classWork.lesson2.person;
 
 /**
  * Created by Alexander on 7/20/2016.

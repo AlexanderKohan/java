@@ -1,4 +1,4 @@
-package progKievUa.javaStart.classWork.lesson4;
+package java.progKievUa.javaStart.classWork.lesson4;
 
 import java.util.Scanner;
 

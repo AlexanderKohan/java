@@ -1,4 +1,4 @@
-package progKievUa.javaStart.home.lesson1;
+package java.progKievUa.javaStart.home.lesson1;
 
 public class Lesson1{
     public static void main(String[] args) {

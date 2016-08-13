@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson3.computer;
+package java.progKievUa.javaOOP.home.lesson3.computer;
 
 import java.util.Random;
 

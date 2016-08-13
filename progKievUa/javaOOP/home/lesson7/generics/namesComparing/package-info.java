@@ -1,7 +1,7 @@
 /**
  * Created by Alexander on 8/12/2016.
  */
-package progKievUa.javaOOP.home.lesson7.generics.namesComparing;
+package java.progKievUa.javaOOP.home.lesson7.generics.namesComparing;
 
 /*
 Names Comparing (*). Задан List<Sting> names. Выполнить задачи (каждая задача - отдельный метод, работающий с исходным списком):

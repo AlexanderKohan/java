@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson4.fileSystem;
+package java.progKievUa.javaOOP.home.lesson4.fileSystem;
 
 import java.util.ArrayList;
 import java.util.List;

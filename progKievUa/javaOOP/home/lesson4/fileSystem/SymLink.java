@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson4.fileSystem;
+package java.progKievUa.javaOOP.home.lesson4.fileSystem;
 
 /**
  * Created by Alexander on 8/6/2016.

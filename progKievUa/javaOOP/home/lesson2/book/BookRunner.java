@@ -1,8 +1,5 @@
-package progKievUa.javaOOP.home.lesson2.book;
+package java.progKievUa.javaOOP.home.lesson2.book;
 
-import progKievUa.javaOOP.home.lesson2.book.Book;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**

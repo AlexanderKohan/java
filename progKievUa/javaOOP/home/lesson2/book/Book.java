@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson2.book;
+package java.progKievUa.javaOOP.home.lesson2.book;
 
 /**
  * Created by Alexander on 7/19/2016.
