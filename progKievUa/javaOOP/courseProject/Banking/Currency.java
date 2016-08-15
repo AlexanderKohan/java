@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.courseProject.Banking;
+package Banking;
 
 import java.util.Date;
 
@@ -7,28 +7,28 @@ import java.util.Date;
  */
 
 public class Currency {
-    private double course;
+    private long COURSE;
     private String name;
     private Date date = new Date();
 
-    public Currency(String name, double course) {
+    public Currency(String name, long COURSE) {
         this.name = name;
-        this.course = course;
+        this.COURSE = COURSE;
     }
 
-    public double getCourse() {
-        return course;
+    public double getCOURSE() {
+        return COURSE;
     }
 
-    public void setCourse(double course) {
-        this.course = course;
+    public void setCOURSE(long COURSE) {
+        this.COURSE = COURSE;
     }
 
     @Override
     public String toString() {
         return "Currency{" +
                 " name='" + name + '\'' +
-                " course=" + course +
+                " COURSE=" + COURSE +
                 ", date=" + date +
                 '}';
     }
@@ -40,7 +40,7 @@ public class Currency {
 
         Currency currency = (Currency) o;
 
-        if (Double.compare(currency.course, course) != 0) return false;
+        if (Double.compare(currency.COURSE, COURSE) != 0) return false;
         if (!name.equals(currency.name)) return false;
         return date.equals(currency.date);
     }
@@ -49,7 +49,7 @@ public class Currency {
     public int hashCode() {
         int result;
         long temp;
-        temp = Double.doubleToLongBits(course);
+        temp = Double.doubleToLongBits(COURSE);
         result = (int) (temp ^ (temp >>> 32));
         result = 31 * result + name.hashCode();
         result = 31 * result + date.hashCode();
