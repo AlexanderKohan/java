@@ -7,6 +7,7 @@ import java.util.Date;
  */
 
 public class Currency {
+
     private Course course;
     private String name;
     private Date date = new Date();
