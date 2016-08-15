@@ -1,4 +1,4 @@
-package java.progKievUa.javaOOP.courseProject.Banking;
+package progKievUa.javaOOP.courseProject.Banking;
 
 /**
  * Created by Don on 31.07.2016.

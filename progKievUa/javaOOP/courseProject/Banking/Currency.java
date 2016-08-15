@@ -1,4 +1,4 @@
-package java.progKievUa.javaOOP.courseProject.Banking;
+package progKievUa.javaOOP.courseProject.Banking;
 
 import java.util.Date;
 
