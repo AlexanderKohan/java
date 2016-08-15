@@ -16,11 +16,11 @@ public class Currency {
         this.name = name;
     }
 
-    public Course getCOURSE() {
+    public Course getCourse() {
         return course;
     }
 
-    public void setCOURSE(long COURSE) {
+    public void setCourse(Course course) {
         this.course = course;
     }
 
