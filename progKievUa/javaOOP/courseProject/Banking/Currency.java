@@ -7,28 +7,28 @@ import java.util.Date;
  */
 
 public class Currency {
-    private long COURSE;
+    private Course course;
     private String name;
     private Date date = new Date();
 
-    public Currency(String name, long COURSE) {
+    public Currency(Course course, String name) {
+        this.course = course;
         this.name = name;
-        this.COURSE = COURSE;
     }
 
-    public double getCOURSE() {
-        return COURSE;
+    public Course getCOURSE() {
+        return course;
     }
 
     public void setCOURSE(long COURSE) {
-        this.COURSE = COURSE;
+        this.course = course;
     }
 
     @Override
     public String toString() {
         return "Currency{" +
                 " name='" + name + '\'' +
-                " COURSE=" + COURSE +
+                " course=" + course +
                 ", date=" + date +
                 '}';
     }
@@ -40,19 +40,17 @@ public class Currency {
 
         Currency currency = (Currency) o;
 
-        if (Double.compare(currency.COURSE, COURSE) != 0) return false;
-        if (!name.equals(currency.name)) return false;
-        return date.equals(currency.date);
+        if (course != currency.course) return false;
+        if (name != null ? !name.equals(currency.name) : currency.name != null) return false;
+        return date != null ? date.equals(currency.date) : currency.date == null;
+
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        temp = Double.doubleToLongBits(COURSE);
-        result = (int) (temp ^ (temp >>> 32));
-        result = 31 * result + name.hashCode();
-        result = 31 * result + date.hashCode();
+        int result = course != null ? course.hashCode() : 0;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (date != null ? date.hashCode() : 0);
         return result;
     }
 }
