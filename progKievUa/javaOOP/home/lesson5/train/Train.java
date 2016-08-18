@@ -1,7 +1,5 @@
-package java.progKievUa.javaOOP.home.lesson5.train;
+package progKievUa.javaOOP.home.lesson5.train;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -9,74 +7,72 @@ import java.util.Random;
  */
 public class Train implements ITrain {
 
-    private List<Carriage> carriages = new ArrayList<>();
-    private Carriage current;
+    public static final int MAX_LENGTH = 10000;
+
+    private Carriage currentCarriage;
+    private int length;
 
     public Train() {
+        length = generateLength();
+        initCarriage();
     }
 
-    public List<Carriage> add(Carriage wagon) {
-        carriages.add(wagon);
-        return carriages;
-    }
-
-    public Carriage getCurrent() {
-        return current;
-    }
-
-    public void setCurrent(Carriage current) {
-        this.current = current;
-    }
-
-    public Carriage setRandomCurrentWagon() {
+    private int generateLength() {
         Random random = new Random();
-        return carriages.get(random.nextInt(carriages.size()));
+        return 1 + random.nextInt(MAX_LENGTH);
     }
 
-    @Override
-    public String toString() {
-        return "Train{" +
-                carriages +
-                ", currentWagon=" + carriages +
-                '}';
+    private void initCarriage() {
+        Carriage head = new Carriage();
+        currentCarriage = head;
+
+        for (int i = 1; i < length; i++) {
+            Carriage newCarriage = new Carriage(currentCarriage, null);
+            currentCarriage.next = newCarriage;
+            currentCarriage = newCarriage;
+        }
+
+        currentCarriage.next = head;
+        head.prev = currentCarriage;
+
+        currentCarriage = head;
     }
 
     @Override
     public void turnLeft() {
-        if (carriages.indexOf(current) != 0) {
-            current = carriages.get(carriages.indexOf(current) - 1);
-        } else {
-            current = carriages.get(carriages.size() - 1);
-        }
+        currentCarriage = currentCarriage.prev;
     }
 
     @Override
     public void turnRight() {
-        if (carriages.indexOf(current) != carriages.size() - 1) {
-            current = carriages.get(carriages.indexOf(current) + 1);
-        } else {
-            current = carriages.get(0);
-        }
+        currentCarriage = currentCarriage.next;
     }
 
     @Override
     public void lightOn() {
-        current.setLight(true);
+        currentCarriage.light = true;
     }
 
     @Override
     public void lightOff() {
-        current.setLight(false);
+        currentCarriage.light = false;
     }
 
     @Override
     public boolean isLightOn() {
-        return current.isLight() == true;
-
+        return currentCarriage.light;
     }
 
     @Override
     public boolean isLength(int expectedLength) {
-        return carriages.size() == expectedLength;
+        return length == expectedLength;
+    }
+
+    @Override
+    public String toString() {
+        return "TrainImpl{" +
+                "currentCarriage id=" + currentCarriage.id +
+                ", length=" + length +
+                '}';
     }
 }

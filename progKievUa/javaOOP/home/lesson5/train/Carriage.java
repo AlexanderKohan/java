@@ -1,35 +1,41 @@
-package java.progKievUa.javaOOP.home.lesson5.train;
+package progKievUa.javaOOP.home.lesson5.train;
+
+import java.util.Random;
 
 /**
  * Created by Alexander on 8/6/2016.
  */
 public class Carriage {
 
+    private static Random lightGenerator = new Random();
     private static int nextId = 0;
-    private int id = nextId++;
-    private boolean light;
 
-    public Carriage(boolean light) {
+    int id = nextId++;
+    boolean light;
+    Carriage next;
+    Carriage prev;
+
+    public Carriage(Carriage prev, Carriage next, boolean light) {
+        this.prev = prev;
+        this.next = next;
         this.light = light;
     }
 
-    public int getId() {
-        return id;
+    public Carriage(Carriage prev, Carriage next) {
+        this(prev, next, lightGenerator.nextBoolean());
     }
 
-    public boolean isLight() {
-        return light;
-    }
-
-    public void setLight(boolean light) {
-        this.light = light;
+    public Carriage() {
+        this(null, null);
     }
 
     @Override
     public String toString() {
-        return "Wagon{" +
+        return "Carriage{" +
                 "id=" + id +
                 ", light=" + light +
+                ", next id=" + next.id +
+                ", prev id=" + prev.id +
                 '}';
     }
 }
