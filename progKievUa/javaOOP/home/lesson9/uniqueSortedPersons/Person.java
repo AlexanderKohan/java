@@ -3,7 +3,7 @@ package progKievUa.javaOOP.home.lesson9.uniqueSortedPersons;
 /**
  * Created by Alexander on 8/22/2016.
  */
-public class Person {
+public class Person implements Comparable<Person> {
 
     private String name;
     private int age;
@@ -56,5 +56,10 @@ public class Person {
                 '}';
 
 
+    }
+
+    @Override
+    public int compareTo(Person person) {
+        return name.compareTo(person.getName());
     }
 }
