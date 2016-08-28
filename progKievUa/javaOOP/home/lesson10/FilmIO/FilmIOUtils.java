@@ -1,9 +1,6 @@
 package progKievUa.javaOOP.home.lesson10.FilmIO;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import progKievUa.javaOOP.classWork.lesson10.minServlet.Validator;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
