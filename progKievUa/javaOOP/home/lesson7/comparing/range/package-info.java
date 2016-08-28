@@ -1,7 +1,7 @@
 /**
  * Created by Alexander on 8/12/2016.
  */
-package java.progKievUa.javaOOP.home.lesson7.comparing.range;
+package progKievUa.javaOOP.home.lesson7.comparing.range;
 
 
 /*
