@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson11;
+package progKievUa.javaOOP.home.lesson11.factorial;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

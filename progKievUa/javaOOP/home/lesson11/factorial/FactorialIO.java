@@ -1,4 +1,4 @@
-package progKievUa.javaOOP.home.lesson11;
+package progKievUa.javaOOP.home.lesson11.factorial;
 
 import java.io.*;
 import java.math.BigInteger;
