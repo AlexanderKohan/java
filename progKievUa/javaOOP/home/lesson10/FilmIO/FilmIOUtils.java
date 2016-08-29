@@ -22,7 +22,7 @@ public class FilmIOUtils {
         }
     }
 
-    public static void outputFilmIntoFile(List<Film> films, String filename) throws IOException {
+    public static void outputFilmsIntoFile(List<Film> films, String filename) throws IOException {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
             outputFilms(films, writer);
         }
