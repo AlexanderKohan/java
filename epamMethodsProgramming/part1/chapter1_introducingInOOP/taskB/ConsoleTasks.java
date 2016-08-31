@@ -1,4 +1,4 @@
-package methodsProgramming.part1.introducingInOOP.taskB;
+package epamMethodsProgramming.part1.chapter1_introducingInOOP.taskB;
 
 import java.util.*;
 

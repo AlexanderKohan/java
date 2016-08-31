@@ -1,4 +1,4 @@
-package methodsProgramming.part1.introducingInOOP.taskA;
+package epamMethodsProgramming.part1.chapter1_introducingInOOP.taskA;
 
 import java.util.Date;
 
