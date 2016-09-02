@@ -1,7 +1,5 @@
 package epamMethodsProgramming.part1.chapter3_ClassesAndObjects.taskA.task2_customer;
 
-import javax.swing.*;
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**

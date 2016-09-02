@@ -6,6 +6,7 @@ import java.util.Random;
  * Created by Alexander on 9/2/2016.
  */
 public class Abonent {
+
     private long id;
     private String name;
     private String tariffPlan;
