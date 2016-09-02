@@ -1,4 +1,4 @@
-package epamMethodsProgramming.part1.chapter5_InnerClasses.mobilMain;
+package epamMethodsProgramming.part1.chapter5_InnerClasses.code.mobilMain;
 
 /**
  * Created by Alexander on 9/2/2016.

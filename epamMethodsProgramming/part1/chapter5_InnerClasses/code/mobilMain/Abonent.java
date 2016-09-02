@@ -1,6 +1,4 @@
-package epamMethodsProgramming.part1.chapter5_InnerClasses.mobilMain;
-
-import com.sun.xml.internal.bind.v2.model.core.ID;
+package epamMethodsProgramming.part1.chapter5_InnerClasses.code.mobilMain;
 
 import java.util.Random;
 
