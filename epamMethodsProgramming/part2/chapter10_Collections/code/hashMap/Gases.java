@@ -1,0 +1,22 @@
+package epamMethodsProgramming.part2.chapter10_Collections.code.hashMap;
+
+import java.util.EnumMap;
+
+/**
+ * Created by Alexander on 9/12/2016.
+ */
+public class Gases {
+    public static void main(String[ ] args) {
+        EnumMap<GASStation, Integer> station1 =
+                new EnumMap<GASStation, Integer>(GASStation.class);
+        station1.put(GASStation.DT, 10);
+        station1.put(GASStation.A80, 5);
+        station1.put(GASStation.A92, 30);
+        EnumMap<GASStation, Integer> station2 =
+                new EnumMap<GASStation, Integer>(GASStation.class);
+        station2.put(GASStation.DT, 25);
+        station2.put(GASStation.A95, 25);
+        System.out.println(station1);
+        System.out.println(station2);
+    }
+}
